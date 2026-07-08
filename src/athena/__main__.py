@@ -1,9 +1,9 @@
 from athena.core.application import AthenaApplication
 
 
-def main():
+def main() -> None:
     app = AthenaApplication()
-    app.run()
+    raise SystemExit(app.run())
 
 
 if __name__ == "__main__":
