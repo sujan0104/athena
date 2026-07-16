@@ -1,0 +1,6 @@
+-e .
+
+ruff
+isort
+pytest
+pre-commit
